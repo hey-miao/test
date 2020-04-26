@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>九九乘法表2</title>
+    <script type="text/javascript">
+    var space="&nbsp;"
+    for(var i=9;i>=1;i--){
+        for(var k=1;k<=i;k++){
+            var sp;
+            if(i*k<10){
+                sp=space+space+space;
+            }else{
+                sp=space;
+            }
+            document.writeln(k+"*"+i+"="+(i*k)+sp)
+        }
+
+        document.write("<br/>")
+    }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>九九乘法表4</title>
+    <script type="text/javascript">
+    var space="&nbsp;"
+    for(var i=9;i>=1;i--){
+        for(k=1;k<=9-i;k++){
+            var sp=space+space+space+space+space;
+            document.writeln(sp+sp+space+space)
+        }
+        for(var j=1;j<=i;j++){
+            if(i*j<10){
+                document.writeln(j+"*"+i+"="+(i*j)+space+space)
+            }   
+            else{     
+            document.writeln(j+"*"+i+"="+(i*j))
+            }
+        }
+        document.write("<br/>")
+    }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
